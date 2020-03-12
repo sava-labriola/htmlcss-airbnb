@@ -11,31 +11,51 @@
     transform: translate(-50%, -50%);
 }
 
-.contenitore [class]{
+.contenitore div{
     height: 30vh;
-    width: 40vh;
+    width: 20vw;
     text-align: center;
     position: relative;
-    background-color: blue;
     margin-bottom: 5px
 }
 
-[class] > p{
+.contenitore div p{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
+
 .roma{
     background-image: url(img/roma.jpg);
     background-size: cover;
 }
+
 .copenaghen{
     background-image: url(img/copenaghen.jpg);
     background-size: cover;
 }
+
 .tokyo{
     background-image: url(img/tokyo.jpg);
     background-size: cover;
+}
+
+#prima{
+    height: 30vh;
+    width: 20vw;
+    opacity: 0.5;
+}
+
+#seconda{
+    height: 30vh;
+    width: 20vw;
+    opacity: 0.5;
+}
+
+#terza{
+    height: 30vh;
+    width: 20vw;
+    opacity: 0.5;
 }
