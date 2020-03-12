@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .contenitore{
     position: absolute;
     top: 50%;
@@ -8,4 +14,28 @@
 .contenitore [class]{
     height: 30vh;
     width: 40vh;
+    text-align: center;
+    position: relative;
+    background-color: blue;
+    margin-bottom: 5px
+}
+
+[class] > p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.roma{
+    background-image: url(img/roma.jpg);
+    background-size: cover;
+}
+.copenaghen{
+    background-image: url(img/copenaghen.jpg);
+    background-size: cover;
+}
+.tokyo{
+    background-image: url(img/tokyo.jpg);
+    background-size: cover;
 }
